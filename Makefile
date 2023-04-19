@@ -13,6 +13,6 @@ aes.o : aes.c aes.h
 	$(CC) $(CFLAGS) $(CPPFLAGS) -c $< 
  
 clean:
-	@rm -f *~ *.o $(EXE)
+	@rm -f *~ *.o $(EXEC)
 
 .PHONY : clean
